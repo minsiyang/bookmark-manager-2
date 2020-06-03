@@ -1,6 +1,11 @@
+require 'pg'
+
 class Bookmark
   def self.all
-    ["http://google.com", "http://facebook.com", "http://twitter.com"]
+    con = PG.connect :dbname => 'bookmark_manager'
+
+    rs = con.exec "SELECT * FROM bookmarks"
+
+    rs.map { |bookmark| bookmark['url'] }
   end
 end
-

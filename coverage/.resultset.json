@@ -1,49 +1,40 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/student/Projects/Bookmark_manager/spec/bookmark_class_spec.rb": {
+      "/Users/nikita/Developer/Projects/FullCourse/Week4/bookmark-manager-2/spec/bookmark_class_spec.rb": {
         "lines": [
           1,
           null,
           1,
           null,
           1,
-          1,
-          1,
-          1,
-          1,
+          null,
           1,
           null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/student/Projects/Bookmark_manager/lib/bookmark.rb": {
-        "lines": [
           1,
           1,
-          2,
+          0,
+          0,
           null,
           null,
           null
         ]
       },
-      "/Users/student/Projects/Bookmark_manager/spec/features/bookmarks_spec.rb": {
+      "/Users/nikita/Developer/Projects/FullCourse/Week4/bookmark-manager-2/spec/features/bookmarks_spec.rb": {
         "lines": [
           1,
           null,
           1,
           1,
-          1,
-          1,
-          1,
-          1,
+          0,
+          0,
+          0,
+          0,
           null,
           null
         ]
       },
-      "/Users/student/Projects/Bookmark_manager/spec/features/index_spec.rb": {
+      "/Users/nikita/Developer/Projects/FullCourse/Week4/bookmark-manager-2/spec/features/index_spec.rb": {
         "lines": [
           1,
           null,
@@ -57,6 +48,6 @@
         ]
       }
     },
-    "timestamp": 1591108922
+    "timestamp": 1591193544
   }
 }
