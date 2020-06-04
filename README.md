@@ -9,6 +9,11 @@ So that I can view a list of useful websites
 I want to be shown a list of bookmarks
 ```
 <br><br>
+`As a user
+So that I can save a website
+I would like to add the site's address and title to bookmark manager
+```
+
 
 Domain model for first user story:
 <p align="center">
