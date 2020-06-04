@@ -5,9 +5,9 @@ describe Bookmark do
   describe ".all" do
     con = PG.connect :dbname => 'bookmark_manager_test'
     
-    con.exec "INSERT INTO bookmarks (url) VALUES ('http://www.makersacademy.com');"
-    con.exec "INSERT INTO bookmarks (url) VALUES ('http://google.com');"
-    con.exec "INSERT INTO bookmarks (url) VALUES ('http://twitter.com');"
+    con.exec "INSERT INTO bookmarks (url, title) VALUES ('http://www.makersacademy.com', 'Makers');"
+    con.exec "INSERT INTO bookmarks (url, title) VALUES ('http://google.com', 'Google');"
+    con.exec "INSERT INTO bookmarks (url, title) VALUES ('http://twitter.com', 'Twitter');"
 
     list = Bookmark.all
 
@@ -20,7 +20,7 @@ describe Bookmark do
    
   describe ".create" do
     it "create a new book" do
-      Bookmark.create(url:'http://amazingweb.com')
+      Bookmark.create(url:'http://amazingweb.com', title:'amazing')
       expect(Bookmark.all).to include("http://amazingweb.com")
     end
   end

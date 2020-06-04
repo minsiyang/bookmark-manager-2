@@ -13,13 +13,13 @@ class Bookmark
     rs.map { |bookmark| bookmark['url'] }
   end
 
-  def self.create(url:)
+  def self.create(url:, title:)
     if ENV['ENVIRONMENT'] == 'test'
       con = PG.connect :dbname => 'bookmark_manager_test'
     else
       con = PG.connect :dbname => 'bookmark_manager'
     end
     
-    rs = con.exec("INSERT INTO bookmarks (url) VALUES('#{url}')")
+    rs = con.exec("INSERT INTO bookmarks (url, title) VALUES('#{url}', '#{title}')")
   end
 end
