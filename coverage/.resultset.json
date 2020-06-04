@@ -22,6 +22,25 @@
           1,
           null,
           null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/student/Projects/Bookmark_manager/spec/features/add_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          null,
           null
         ]
       },
@@ -60,6 +79,6 @@
         ]
       }
     },
-    "timestamp": 1591218015
+    "timestamp": 1591267803
   }
 }
