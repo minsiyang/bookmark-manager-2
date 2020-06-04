@@ -4,7 +4,6 @@ feature "/add" do
     fill_in("url", with:"http://amazingweb.com")
     fill_in("title", with:"amazing")
     click_on("Save")
-    expect(page).to have_content("http://amazingweb.com")
-    expect(page).to have_content("amazing")
+    expect(page).to have_link("amazing", href:"http://amazingweb.com")
   end
 end
