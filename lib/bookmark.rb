@@ -20,6 +20,6 @@ class Bookmark
       con = PG.connect :dbname => 'bookmark_manager'
     end
     
-    rs = con.exec("INSERT INTO bookmarks (url, title) VALUES('#{url}', '#{title}') RETURNING id, url, title")
+    rs = con.exec("INSERT INTO bookmarks (url, title) VALUES('#{url}', '#{title}')") # RETURNING id, url, title")
   end
 end
