@@ -4,7 +4,7 @@ require 'database_helpers'
 describe Bookmark do
 
   describe ".all" do
-    con = PG.connect :dbname => 'bookmark_manager_test'
+    con = PG.connect(dbname: 'bookmark_manager_test')
     
     
     bookmark = Bookmark.create(url:'http://www.makersacademy.com', title: 'Makers')
