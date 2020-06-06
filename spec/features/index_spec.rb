@@ -1,4 +1,3 @@
-require 'sinatra'
 
 feature 'Bookmark Manager' do
   scenario "it should produce bookmark homepage" do

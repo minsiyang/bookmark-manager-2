@@ -1,4 +1,3 @@
-require 'sinatra'
 
 feature "/bookmarks page" do
   scenario "views bookmarks" do
