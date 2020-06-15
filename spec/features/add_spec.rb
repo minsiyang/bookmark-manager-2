@@ -1,9 +1,10 @@
-feature "/add" do
-  scenario "see a form to fill in new url and submit" do
-    visit "/add"
-    fill_in("url", with:"http://amazingweb.com")
-    fill_in("title", with:"amazing")
-    click_on("Save")
-    expect(page).to have_link("amazing", href:"http://amazingweb.com")
+feature 'Adding a new bookmark' do
+  scenario 'A user can add a bookmark to Bookmark Manager' do
+    visit('/bookmarks/new')
+    fill_in('url', with: 'http://www.testbookmark.com')
+    fill_in('title', with: 'Test Bookmark')
+    click_button('Submit')
+
+    expect(page).to have_link('Test Bookmark', href: 'http://www.testbookmark.com')
   end
 end

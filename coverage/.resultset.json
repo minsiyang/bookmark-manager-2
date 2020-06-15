@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/student/Projects/Bookmark_manager/spec/bookmark_class_spec.rb": {
+      "/Users/student/Projects/Week-4/Bookmark_manager/spec/bookmark_class_spec.rb": {
         "lines": [
           1,
           1,
@@ -20,10 +20,10 @@
           null,
           1,
           1,
-          1,
-          1,
-          1,
-          1,
+          0,
+          0,
+          0,
+          0,
           null,
           null,
           null,
@@ -32,6 +32,114 @@
           1,
           1,
           1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/student/Projects/Week-4/Bookmark_manager/spec/database_helpers.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/student/Projects/Week-4/Bookmark_manager/spec/features/add_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/student/Projects/Week-4/Bookmark_manager/spec/features/bookmarks_spec.rb": {
+        "lines": [
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/student/Projects/Week-4/Bookmark_manager/spec/features/deleting_a_bookmark_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/student/Projects/Week-4/Bookmark_manager/spec/features/index_spec.rb": {
+        "lines": [
           null,
           1,
           1,
@@ -42,32 +150,13 @@
           null
         ]
       },
-      "/Users/student/Projects/Bookmark_manager/spec/database_helpers.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null
-        ]
-      },
-      "/Users/student/Projects/Bookmark_manager/spec/features/add_spec.rb": {
+      "/Users/student/Projects/Week-4/Bookmark_manager/spec/features/update_a_bookmark_spec.rb": {
         "lines": [
           1,
           1,
           1,
           1,
           1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/student/Projects/Bookmark_manager/spec/features/bookmarks_spec.rb": {
-        "lines": [
           null,
           1,
           1,
@@ -77,27 +166,13 @@
           1,
           null,
           1,
-          null,
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/student/Projects/Bookmark_manager/spec/features/index_spec.rb": {
-        "lines": [
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
+          0,
+          0,
           null,
           null
         ]
       }
     },
-    "timestamp": 1591466056
+    "timestamp": 1592254513
   }
 }
